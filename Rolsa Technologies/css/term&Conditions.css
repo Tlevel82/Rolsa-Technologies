@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Grandstander', serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #333;
+    height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0rem; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition: 0.1s;
+    background-color: #fff;
+}
+
+/* Navigation bar links */
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-inline-start: -60px;
+}
+
+.navbar ul li {
+    font-size: 20px;
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: black;
+    font-weight: 500;
+}   
+
+.navbar ul li .link,
+nav ul li a:hover {
+    color: #0F81E9;
+}
+
+/* Navigation bar Logo */
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+}
+
+.navbar .logo i {
+    padding-right: 10px;
+}
+
+/* Navigation bar icons */
+.navbar .icons a{
+    font-size: 20px;
+    color: black;
+    margin: 0 0.5rem;
+}
+
+.navbar .icons a:hover{
+    color: #03A125;
+    transition: 0.1s;
+}
+
+
+/* Terms Section */
+.terms-section {
+    padding: 2rem;
+    color: #333;
+}
+
+.terms-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 13vh;
+}
+
+.terms-section h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    color: #20511f;
+    text-align: center;
+}
+
+.terms-section p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Form Styling */
+#termsForm {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#termsForm .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#termsForm .form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#termsForm .form-group label {
+    font-size: 1.4rem;
+    color: #333;
+    cursor: pointer;
+}
+
+#termsForm .btn {
+    background-color: #20511f;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#termsForm .btn:hover {
+    background-color: #1a4117;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Grandstander', serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    height: 200vh;
+}
+
+/* CTA Containers */
+
+.cta {
+    margin-block-start: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+ }
+ 
+ .cta .cta-area  {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     margin-inline-start: -160px;
+ }
+ 
+ .cta .cta-area .cta-container img {
+     width: 40vh;
+     height: 30vh;
+ }
+ 
+ .cta .cta-area .cta-container {
+     background-image: url("../images/solar-power-6860359_1280.jpg");
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 50vh;
+     border-radius: 20px;
+ }
+ 
+ .cta .cta-area .cta-container p {
+     font-size: 1.5rem;
+     color: white;
+ }
+ 
+ .cta .cta-area .cta-container .cta-text {
+     background-color: rgba(0, 0, 0, 0.5);
+     height: 20vh;
+     width: 50vh;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     margin-top: 210px;
+ 
+ }
+ 
+ .cta  h1 {
+     font-size: 2.5rem;
+     color: black;
+     margin-bottom: 5rem;
+     align-self: start;
+     margin-left: 70px;
+ }
+ 
+ .cta .cta-area .cta-container .cta-text p {
+     font-size: 2.5rem;
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+     font-weight: 100;
+ }
+ 
+ .cta .cta-area .cta-container:hover {
+     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 40px; 
+     transition: 0.1s;
+ }
+
+
+

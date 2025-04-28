@@ -1,0 +1,884 @@
+/* General Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Sidebar */
+body.dark-mode .sidebar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar a {
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar a:hover {
+    color: #000;
+}
+
+body.dark-mode .sidebar nav footer {
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar nav footer a h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar nav footer a:hover h3 {
+    color: #00C776; 
+}
+
+/* Overview Page */
+body.dark-mode .overview {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .overview h1,
+body.dark-mode .overview h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .overview .card {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .overview .card h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .overview .card p {
+    color: #aaaaaa;
+}
+
+/* Book Page */
+body.dark-mode .form-container{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+body.dark-mode .booking-form input,
+body.dark-mode .booking-form select {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .booking-form input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .booking-form button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .booking-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Calculate Page */
+body.dark-mode .calculate {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .calculate input,
+body.dark-mode .calculate select {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .calculate button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .calculate button:hover {
+    background-color: #0056b3;
+}
+
+/* Subtitle Section */
+body.dark-mode .subtitle {
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .subtitle h4 {
+    color: #ffffff;
+}
+
+body.dark-mode .subtitle .icons a {
+    color: #ffffff;
+}
+
+body.dark-mode .subtitle .icons a:hover {
+    color: #00C776;
+}
+
+/* Settings Page (dash-setting-detail.php) */
+body.dark-mode .form h1,
+body.dark-mode .form h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .form .details p {
+    color: #d7d3d3;
+}
+
+body.dark-mode .form span {
+    color: #d7d3d3;
+}
+
+body.dark-mode .form .form-btn button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .form .form-btn button:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode .form .feature-input input {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .form .feature-input input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .form .change-avatar-btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .form .change-avatar-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Accessibility Page (dash-setting-access.php) */
+
+
+body.dark-mode .accessibility h1,
+body.dark-mode .accessibility h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .accessibility p {
+    color: #aaaaaa;
+}
+
+body.dark-mode .accessibility input,
+body.dark-mode .accessibility select {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .accessibility input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .accessibility button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .accessibility button:hover {
+    background-color: #0056b3;
+}
+
+/* Carbon Calculator Page (cal-carbon.php) */
+body.dark-mode .carbon-calculator {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+body.dark-mode .carbon-calculator h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .carbon-calculator fieldset {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body.dark-mode .carbon-calculator legend {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+body.dark-mode .carbon-calculator label {
+    color: #ffffff;
+}
+
+body.dark-mode .carbon-calculator input {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+body.dark-mode .carbon-calculator input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .carbon-calculator .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .carbon-calculator .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Energy Calculator Page (cal-energy.php) */
+body.dark-mode .energy-calculator {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+body.dark-mode .energy-calculator h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .energy-calculator fieldset {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body.dark-mode .energy-calculator legend {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+body.dark-mode .energy-calculator label {
+    color: #ffffff;
+}
+
+body.dark-mode .energy-calculator input {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+body.dark-mode .energy-calculator input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .energy-calculator .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .energy-calculator .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Graph Container in Dark Mode */
+body.dark-mode .graph-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .graph-container h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .graph-container select {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+body.dark-mode .graph-container select option {
+    background-color: #333;
+    color: #ffffff;
+}
+.graph-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* General Dark Mode Styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Blog Section in Dashboard */
+body.dark-mode .random-blog-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .random-blog-container .random-blog-card {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+body.dark-mode .random-blog-container .random-blog-card a {
+    color: #4dabf7;
+}
+
+body.dark-mode .random-blog-container .random-blog-card a:hover {
+    color: #82cfff;
+    text-decoration: underline;
+}
+
+/* Blog Page (blog.php) */
+body.dark-mode .blog-content {
+    color: #ffffff;
+}
+
+body.dark-mode .search-filter input,
+body.dark-mode .search-filter select {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+body.dark-mode .search-filter input::placeholder {
+    color: #888;
+}
+
+body.dark-mode .results-container .result-card {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+body.dark-mode .results-container .result-card a {
+    color: #4dabf7;
+}
+
+body.dark-mode .results-container .result-card a:hover {
+    color: #82cfff;
+    text-decoration: underline;
+}
+
+/* Dark Mode for Terms Section */
+body.dark-mode .terms-section {
+    color: #ffffff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 4vh;
+    margin-left: 2vh;
+}
+
+body.dark-mode .terms-section .container {
+    background-color: #2a2a2a; /* Slightly lighter dark background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #444; /* Subtle border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .terms-section h1 {
+    color: #82cfff; /* Light blue for headings */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+body.dark-mode .terms-section p {
+    color: #cccccc; /* Light gray for paragraph text */
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+body.dark-mode .terms-section form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body.dark-mode .terms-section .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+body.dark-mode .terms-section .form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+    accent-color: #007BFF; /* Blue checkbox */
+    cursor: pointer;
+}
+
+body.dark-mode .terms-section .form-group label p{
+    font-size: 1rem;
+    color: #ffffff; /* White text for the label */
+    cursor: pointer;
+}
+
+body.dark-mode .terms-section .btn {
+    background-color: #007BFF; /* Blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .terms-section .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Dark Mode for Cookies Policy Section */
+body.dark-mode .cookies-policy {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+body.dark-mode .cookies-policy h1,
+body.dark-mode .cookies-policy h2 {
+    color: #82cfff; /* Light blue for headings */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+body.dark-mode .cookies-policy p {
+    color: #cccccc; /* Light gray for paragraph text */
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+body.dark-mode .cookies-policy ul {
+    margin-left: 20px;
+    color: #cccccc; /* Light gray for list items */
+}
+
+body.dark-mode .cookies-policy ul li {
+    margin-bottom: 0.5rem;
+}
+
+body.dark-mode .cookies-policy ul li strong {
+    color: #ffffff; /* White for bold text */
+}
+
+body.dark-mode .cookies-policy form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+body.dark-mode .cookies-policy .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+body.dark-mode .cookies-policy .form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+    accent-color: #007BFF; /* Blue checkbox */
+    cursor: pointer;
+}
+
+body.dark-mode .cookies-policy .form-group label {
+    font-size: 1rem;
+    color: #ffffff; /* White text for labels */
+    cursor: pointer;
+}
+
+body.dark-mode .cookies-policy .cookie-btn {
+    background-color: #007BFF; /* Blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .cookies-policy .cookie-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Home Page */
+body.dark-mode .home-header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .home-header h1,
+body.dark-mode .home-header p {
+    color: #ffffff;
+}
+
+body.dark-mode .home-section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .home-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .home-section p {
+    color: #aaaaaa;
+}
+
+body.dark-mode .home-section .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .home-section .btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Settings Page */
+body.dark-mode .form {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .form h1,
+body.dark-mode .form h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .form .details p {
+    color: #d7d3d3;
+}
+
+body.dark-mode .form span {
+    color: #d7d3d3;
+}
+
+body.dark-mode .form .form-btn button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .form .form-btn button:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode .form .feature-input input {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .form .feature-input input::placeholder {
+    color: #aaaaaa;
+}
+
+/* Product Page */
+body.dark-mode .product-header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .product-header h1,
+body.dark-mode .product-header p {
+    color: #ffffff;
+}
+
+body.dark-mode .product-list {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .product-list .product-card {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+body.dark-mode .product-list .product-card h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .product-list .product-card p {
+    color: #aaaaaa;
+}
+
+body.dark-mode .product-list .product-card .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .product-list .product-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* About Us Page */
+body.dark-mode .about-header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .about-header h1,
+body.dark-mode .about-header p {
+    color: #ffffff;
+}
+
+body.dark-mode .about-section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .about-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .about-section p {
+    color: #aaaaaa;
+}
+
+body.dark-mode .about-section .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .about-section .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Cookies Page */
+body.dark-mode .cookies-policy {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .cookies-policy h1,
+body.dark-mode .cookies-policy h2 {
+    color: #82cfff;
+}
+
+body.dark-mode .cookies-policy p {
+    color: #cccccc;
+}
+
+body.dark-mode .cookies-policy ul {
+    color: #cccccc;
+}
+
+body.dark-mode .cookies-policy ul li {
+    margin-bottom: 0.5rem;
+}
+
+body.dark-mode .cookies-policy .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .cookies-policy .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Terms and Conditions Page */
+body.dark-mode .terms-section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .terms-section h1 {
+    color: #82cfff;
+}
+
+body.dark-mode .terms-section p {
+    color: #cccccc;
+}
+
+body.dark-mode .terms-section .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .terms-section .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Account Page Dark Mode Styles */
+body.dark-mode .hero-section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar a {
+    color: #ffffff;
+}
+
+body.dark-mode .navbar a:hover {
+    color: #00C776;
+}
+
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .input-field input {
+    color: #333;
+
+}
+
+body.dark-mode .input-field input::placeholder {
+    color: #aaaaaa;
+}
+
+body.dark-mode .signin-signup h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .btn {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode .panels-container .panel {
+    color: #ffffff;
+}
+
+body.dark-mode .panels-container .panel h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .panels-container .panel p {
+    color: #aaaaaa;
+}
+
+body.dark-mode .container:before {
+    background-color: #383838;
+}
+
+/* Footer */
+body.dark-mode footer {
+    background-color: #018786;
+}
+
+body.dark-mode .footer-container h3 {
+    color: #ffffff;
+}
+body.dark-mode .footer-container ul li a {
+    color: #ffffff;
+}
+body.dark-mode .footer-container ul li a:hover {
+    color: #333;
+}
+body.dark-mode .footer-container .social-icons a {
+    color: #ffffff;
+}
+
+body.dark-mode .footer .footer-logo {
+    color: #fff;
+}
+
+body.dark-mode .footer .footer-logo i .fa-bounce{
+    color: #fff;
+}
+
+body.dark-mode .cta h1{
+    color: #fff;
+}
