@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Rolsa Technologies</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/darkmode.css?v=<?php echo time(); ?>">
+    
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body>
+    
+    <!-- Navigation bar + Hero section -->
+    <section class="hero-section" id="home">
+        <div class="navbar">
+            <a href="#" class="logo"><i class="fa-solid fa-shoe-prints fa-bounce" style="color: #20511f;"></i>Rolsa Technologies</a>
+            <nav>
+                <ul>
+                    <li><a href="home.php" class="link">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                </ul>
+            </nav>
+
+            <div class="icons">
+                <!-- settings icon -->
+                <a href="setting.php"><i class="fa-solid fa-gear"></i></a>
+
+                <!-- account icon -->
+                <a href="account.php"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="img-container">
+                <img src="images/photovoltaic-2138992_1280.jpg" alt="img">
+            </div>
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <br>Ad, animi. Perspiciatis corrupti excepturi.</h2>
+            <div class="btn">
+                <a href="#">
+                    <button>Join us</button>
+                </a>
+                <a href="#">
+                    <button>Learn more</button>
+                </a>
+            </div>
+        </div>
+
+        <nav class="mini-navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#join">Join</a></li>
+                <li><a href="#feedback">Customer Feedback</a></li>
+                <li><a href="#questions">FAQ</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- cookies pop up -->
+    <div id="cookieConsent" class="cookie-consent">
+        <p>
+            This website uses cookies to ensure you get the best experience on our website. 
+            <a href="cookies.html" target="_blank">Learn more</a>
+        </p>
+        <div class="cookie-buttons">
+            <button id="acceptCookies" class="cookie-btn accept">Accept</button>
+            <button id="rejectCookies" class="cookie-btn reject">Reject</button>
+        </div>
+    </div>
+    
+    <!-- Text under mini navbar -->
+    <div class="text-area">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tenetur nobis placeat 
+            <br>quae illum. Sequi ab tempore repellat, doloremque minus expedita qui cum 
+            <br>nesciunt, libero at iste error tempora iure.</h2>
+    </div>
+    <!-- End -->
+     
+    <!-- About us section CTA -->
+    <section class="about" id="about">
+        <h1>About Us</h1>
+
+        <div class="about-container">
+            <img src="images/electric-car-4381728_1280.jpg" alt="img">
+            <div class="about-text">
+                <h2>A lit bit about us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam tenetur nobis placeat quae illum. Sequi ab tempore 
+                    repellat, doloremque minus expedita qui cum nesciunt, libero 
+                    at iste error tempora iure.</p>
+                <a href="about.html">
+                    <button>Learn More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product section CTA -->
+    <section class="product" id="product">
+        <h1>Product</h1>
+
+        <div class="product-container">
+            <img src="images/electric-car-4381728_1280.jpg" alt="img">
+            <div class="product-text">
+                <h2>Want to know the different products and service we offer?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam tenetur nobis placeat quae illum. Sequi ab tempore 
+                    repellat, doloremque minus expedita qui cum nesciunt, libero 
+                    at iste error tempora iure.</p>
+                <a href="product.html">
+                    <button>Learn More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join us section CTA -->
+    <section class="join" id="join">
+        <div class="join-text">
+            <h1>Why Join Us?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore tempora 
+                in dolores accusantium modi natus asperiores nisi nesciunt atque harum</p>
+        </div>
+
+        <div class="join-cta">
+            <h2>Join today and reap the benefits!</h2>
+            <i class="fa-solid fa-angle-down"></i>
+            <a href="account.html">
+                <button>Join Now!</button>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Image -->
+    <section class="parallax"></section>
+
+    <!-- Feedback Title -->
+    <section class="feed-title" id="feedback">
+      <h1>Customer Feedback</h1>
+    </section>
+
+
+    <!-- Customer feedback section CTA | Testimonial Slider -->
+    <section class="container">
+        <div class="feedbacks mySwiper">
+            <div class="feed-content swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="slide swiper-slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Delectus exercitationem nam doloremque porro iusto nulla 
+                        sit praesentium aut ipsum maiores vel deleniti nemo sunt 
+                        tenetur libero beatae, sequi tempora amet!</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Colin Cox</span>
+                    </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="slide swiper-slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Delectus exercitationem nam doloremque porro iusto nulla 
+                        sit praesentium aut ipsum maiores vel deleniti nemo sunt 
+                        tenetur libero beatae, sequi tempora amet!</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Adriel Hahn</span>
+                    </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="slide swiper-slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Delectus exercitationem nam doloremque porro iusto nulla 
+                        sit praesentium aut ipsum maiores vel deleniti nemo sunt 
+                        tenetur libero beatae, sequi tempora amet!</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Rory Lugo</span>
+                    </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="slide swiper-slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Delectus exercitationem nam doloremque porro iusto nulla 
+                        sit praesentium aut ipsum maiores vel deleniti nemo sunt 
+                        tenetur libero beatae, sequi tempora amet!</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Andre Burns</span>
+                    </div>
+              </div>
+              
+              <!-- Slide 5 -->
+              <div class="slide swiper-slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Delectus exercitationem nam doloremque porro iusto nulla 
+                        sit praesentium aut ipsum maiores vel deleniti nemo sunt 
+                        tenetur libero beatae, sequi tempora amet!</p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                    <div class="details">
+                        <span class="name">Elina Perkins</span>
+                    </div>
+              </div>
+            </div>
+            <div class="swiper-button-next slide-btn"></div>
+            <div class="swiper-button-prev slide-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Image -->
+    <section class="parallax-1"></section>
+
+    <!-- FAQ Section -->
+    <section class="questions" id="questions">
+        <div class="wrap">
+            <h1>Frequently Asked Questions</h1>
+      
+            <div class="faq">
+              <button class="accordion" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sequi 
+                  provident nam sit blanditiis facere ipsum totam natus ipsa debitis 
+                  veniam repellat esse deserunt, sapiente, soluta asperiores voluptates 
+                  illum placeat.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                  saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                  ullam, iure eligendi harum eaque hic corporis debitis porro
+                  consectetur voluptate rem officiis architecto.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                  saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                  ullam, iure eligendi harum eaque hic corporis debitis porro
+                  consectetur voluptate rem officiis architecto.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                  saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                  ullam, iure eligendi harum eaque hic corporis debitis porro
+                  consectetur voluptate rem officiis architecto.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                  saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                  ullam, iure eligendi harum eaque hic corporis debitis porro
+                  consectetur voluptate rem officiis architecto.
+                </p>
+              </div>
+            </div>
+      
+            <div class="faq">
+              <button class="accordion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quide?
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="pannel">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                  saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                  ullam, iure eligendi harum eaque hic corporis debitis porro
+                  consectetur voluptate rem officiis architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- End -->
+
+    <!-- Image -->
+    <section class="parallax-2"></section>
+
+    <!-- Footer -->
+    
+    <footer class="footer">
+      <a href="#" class="footer-logo"><i class="fa-solid fa-shoe-prints fa-bounce" style="color: #20511f;"></i>Rolsa Technologies</a>
+        
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="account.php">Join Us</a></li>
+                    <li><a href="#questions">FAQ</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-content">
+                <h3>Accessibility</h3>
+                <ul>
+                    <li><a href="cookies.html">Cookies</a></li>
+                    <li><a href="setting.html">Settings</a></li>
+                    <li><a href="T&C.php">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3>Social Links</h3>
+                <ul class="social">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>@ 2025 Rolsa Technologies. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- End -->
+
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Script -->
+    <script src="js/js.js"></script>
+    <script src="js/cookies.js"></script>
+
+    <!-- Initialize FAQ -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+  
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+  
+            var pannel = this.nextElementSibling;
+  
+            if (pannel.style.display === "block") {
+              pannel.style.display = "none";
+            } else {
+              pannel.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+
+    <!-- JavaScript link -->
+    <script src="js/dark-mode.js"></script>
+</body>
+</html>
